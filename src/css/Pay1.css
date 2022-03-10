@@ -1,0 +1,144 @@
+#changeButton{
+    /*设置文字为修改得按钮的样式*/
+    background-color: coral;
+    padding:1em 2em;
+    color:#fff;
+    border:0;
+}
+
+#changeButton:hover{
+    background:#333;
+    /*鼠标悬浮在按钮上的时候将会使得按钮变色*/
+}
+
+#changePage{
+    /*设置一整个修改框框的内容*/
+    display:none;
+    position: fixed;
+    z-index: 1;
+    left:0;
+    top:0;
+    height: 100%;
+    width:100%;
+    overflow: auto;
+    /*背景黑但是不全黑*/
+    background-color: rgba(0,0,0,0.2);
+}
+
+.modal_content{
+/*设置修改框里的内容*/
+background-color: #f4f4f4;
+/*开始设置位置了*/
+/*设置内外边距*/
+margin:10% auto;
+padding: 20px;
+width:40%;
+/*设置边框阴影效果*/
+box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0
+rgb(0,0,0,0.17);
+/*设定弹窗出现的动画效果*/
+animation-name: modalopen;
+animation-duration: 2s;
+}
+/*编辑框框上部内容的格式*/
+.modal-header h2 ,.modal-footer h3{
+    margin:0;
+}
+/*编辑框框上部的格式*/
+.modal-header{
+background:coral;
+padding: 15px;
+color:#fff;
+}
+/*设置修改框内部文字边距*/
+.modal-body{
+    padding: 10px 20px;
+}
+.modal-footer{
+    background:coral;
+    padding: 10px;
+    color:#fff;
+    text-align:center;
+}
+/*设置关闭按钮*/
+.close_Button{
+    color: #ccc;
+    float: right;
+    font-size: 30px;
+    color:white;
+}
+/*设置当鼠标悬停在上方的时候变色的关闭按钮效果*/
+.close_Button:hover,.close_Button:focus{
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}
+/*设置渐变出现*/
+@keyframes modalopen{
+    from{opacity: 0;}
+    to {opacity: 1;}
+}
+/*设置close button样式*/
+.close_Button{
+    background-color: coral;
+    border-color:coral;
+    border-style:solid;
+  }
+  .select{
+      width:110px;
+  }
+  .select1{
+    width:110px;
+}
+.bookinfomationnewurl{
+    /*设置图片长宽不会超过max的div，以防溢出/太小*/
+  max-width: 100%;
+  max-height: 100%;
+}
+.book-imgnew{
+    height: 130px;
+    width:100px;
+    border: 1px solid gray;
+ 
+}
+
+.booo a{
+    font-style: normal;
+	text-align: left;
+	overflow : hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+  font-weight: bold;
+  text-decoration: none;
+  /*设置本身的颜色为灰色*/
+  color: #333;
+  }
+
+/*设置鼠标悬浮在书名上面的效果*/
+.booo a:hover{
+    color: tomato;
+    }
+    .booo a:hover{
+      color: tomato;
+      }
+      
+      /*设置书名的位置*/
+.booknnn{
+    margin-top: -100px;
+    margin-left: 120px;
+    width:30%;
+      }
+      .bookinfomationage{
+         position: relative;
+         left:50%;
+         top:-40px;
+      }
+      .bookinfomationnewprice{
+        position: relative;
+         left:60%;
+         top:-75px;
+     }
+     
+      

@@ -1,0 +1,125 @@
+
+.user-body{
+  background-image: linear-gradient(-120deg, #e9defa 0%, #fbfcdb 100%); 
+  background-size:cover;
+  background-attachment:fixed;
+  position: absolute;  
+  /* position: relative;   */
+  
+
+  
+}
+.user-all{
+
+  width: 1000px;
+  
+  margin-right: auto;
+  margin-left: auto;
+  background-color:rgb(255, 255, 240);
+  box-shadow:3px 3px 20px 3px rgba(133, 110, 42, 0.2);
+
+  
+  /* float: right;
+  float: right; */
+  
+
+}
+.info-box{
+  width: 100%;
+  height: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  background-image: url('../images/user_bg.jpg')
+
+}
+
+.all-post-book{
+  width: 100%;
+  height: auto;
+  margin-top: 0;
+  margin-left:8%;
+  position:relative;
+  box-sizing:border-box;
+  font-size:em;
+ 
+ 
+}
+.post-book{
+  width: 100%;
+  height:500px;
+  position:relative;
+
+  
+
+}
+.post-img-div{
+  /*设定一个矩形边框来存放图片*/
+  width:80%;
+ height:80%;
+ /* border: 1px solid burlywood; */
+ box-shadow:3px 3px 20px 3px rgba(133, 110, 42, 0.2);
+ background-color:white;
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ flex-flow: column nowrap;
+ justify-content: center; /*垂直方向居中*/
+ align-items: center;
+}
+.post-img{
+  /*设置上面四张图片长宽不会超过max的div，以防溢出/太小*/
+  max-width: 100%;
+  max-height: 100%;
+}
+.user-hr{
+  width:300,
+
+
+}
+.name{
+  font-style: bold;
+  font-size: 26px;
+   /* margin-top: 5%;  */
+  margin-left: 5%;
+
+}
+.title{
+  font-style: bold;
+  font-size: 26px;
+   /* margin-top: 5%;  */
+  margin-left: 8%;
+  
+
+}
+.credit{
+  font-style: bold;
+  font-size: 18px;
+  margin-left: 5%;
+  color:black;
+
+}
+.other a{
+  font-style: bold;
+  font-size: 18px;
+  margin-left: 5%;
+  color:black;
+
+}
+.other a:hover{
+  color:darkgoldenrod;
+
+}
+
+.bookname a{
+  color:black;
+}
+.bookname a:hover{
+  color:darkgoldenrod;
+}
+.edit a{
+  color:black;
+}
+.edit a:hover{
+  color:darkgoldenrod;
+}

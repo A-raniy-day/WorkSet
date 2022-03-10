@@ -1,0 +1,84 @@
+.postbody{
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+    width: 100%;  
+    height: 100%;  
+    position: absolute;  
+    left: 0px;  
+    top: 0px;  
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center; /*垂直方向居中*/
+    align-items: center;
+
+}
+.postBook{
+    width:30%;
+    height:auto;
+    
+    /* text-align:left; */
+    background-color:rgb(255, 255, 240,0.5);
+    
+	box-shadow:2px 2px 20px 2px rgba(77, 63, 20, 0.3);
+    padding:20px 50px;
+
+    
+}
+.postbutton{
+    margin-left: 20%;
+    border-radius:18px;
+    width: 60%;
+	height: 50px;
+	border: none;
+	background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
+	background-size: 200%;
+	color: #fff;
+	/* cursor:pointer：设置鼠标样式 */
+	cursor:pointer;
+	transition: .5s;
+    font-size: 18px;
+    font-weight: 550;
+}
+.postbutton:hover{
+    margin-left: 20%;
+    border-radius:18px;
+    width: 60%;
+	height: 50px;
+	border: none;
+	background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+	background-size: 200%;
+	color: #fff;
+	/* cursor:pointer：设置鼠标样式 */
+	cursor:pointer;
+	transition: .5s;
+    font-size: 18px;
+    font-weight: 550;
+}
+.postinfo{
+    margin-left:20%;
+   
+    font-size: 20px;
+    font-family: 等线;
+    font-weight: 600;
+    color: rebeccapurple;
+}
+.inputinfo{
+    margin-left:20%;
+    border-radius: 18px;
+    background-color: white;
+    border:2.5px solid rgb(102, 51, 153,0.3);
+    height: 30px;
+    width: 60%;
+    font-size: 18px;
+    color: rgb(102, 51, 153,0.8);
+
+}
+.inputclass{
+    margin-left:20%;
+   
+    border-radius: 18px;
+    background-color: white;
+    border:2.5px solid rgb(102, 51, 153,0.3);
+    height: 40px;
+    width: 60%;
+
+}
