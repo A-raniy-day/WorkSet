@@ -1,0 +1,48 @@
+.user-info-body{
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+    width: 100%;  
+    height: 100%;  
+    position: absolute;  
+    left: 0px;  
+    top: 0px;  
+
+}
+.user-info-box{
+    width:25%;
+    height:auto;
+    margin:0 auto ;
+    margin-top:13%;
+    /* text-align:left; */
+    background-color:rgb(255, 255, 240,0.5);
+    
+	box-shadow:2px 2px 20px 2px rgba(77, 63, 20, 0.3);
+    padding:20px 50px;
+}
+.personal-info{
+    font-style:bold;
+    font-size: 32px;
+    margin-left: 20%;
+    font-family: 等线;
+
+}
+.basic-info{
+    margin-left: 20%;
+    font-size: 18px;
+    font-family: 等线;
+}
+.link-eidt a{
+    
+        margin-left: 20%;
+        font-size: 18px;
+        color: #000;
+        font-family: 等线;
+    
+}
+.link-eidt a:hover{
+    
+    margin-left: 20%;
+    font-size: 18px;
+    color:blueviolet;
+    font-family: 等线;
+
+}

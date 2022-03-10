@@ -1,0 +1,86 @@
+.all-orders-body{
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  width: 100%;  
+  height: 100%;  
+    position: absolute;  
+    left: 0px;  
+    top: 0px;  
+
+}
+.big-box{
+  width: 1000px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  background-color:rgb(255, 255, 240);
+  box-shadow:3px 3px 20px 3px rgba(133, 110, 42, 0.2);
+
+ 
+}
+.topinfo{
+  width: 100%;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-image: url('../images/all_orders_bg.jpg'); */
+  background-image: url('../images/book_bg2.jpg');
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  
+}
+.order-username{
+  font-style: bold;
+  font-size: 26px;
+  margin-left: 8%;
+
+}
+.order-usercredit{
+  font-style: bold;
+  font-size: 18px;
+  margin-left: 8%;
+  color:black;
+
+}
+.link-eidtinfo a{
+  font-style: bold;
+  font-size: 18px;
+  margin-left: 8%;
+  color:black;
+
+}
+.link-eidtinfo a:hover{
+  font-style: bold;
+  font-size: 18px;
+  margin-left: 8%;
+  color:blueviolet;
+
+
+}
+.allorders{
+  width: 100%;
+  height: auto;
+  margin-top: 0;
+  margin-left:8%;
+  position:relative;
+  box-sizing:border-box;
+  font-size:em;
+
+}
+.eachorder{
+  /*设定一个矩形边框来存放图片*/
+  width:80%;
+ height:auto;
+ /* border: 1px solid burlywood; */
+ box-shadow:3px 3px 20px 3px rgba(133, 110, 42, 0.2);
+ background-color:white;
+ align-items: center;
+ justify-content: center;
+}
+.info{
+  
+  font-size: 18px;
+  margin-left: 5%;
+  color:rgb(61, 57, 57);
+
+}
+

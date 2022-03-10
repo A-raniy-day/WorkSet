@@ -1,0 +1,129 @@
+.book-body{
+    background-image: linear-gradient(-120deg, #e9defa 0%, #fbfcdb 100%); 
+    background-size:cover;
+    background-attachment:fixed;
+    position: absolute;               
+}
+.book-big-box{
+    width: 900px;
+    height: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:rgb(255, 255, 240);
+    box-shadow:3px 3px 20px 3px rgba(133, 110, 42, 0.2);
+    border: 2px solid rgba(185, 117, 171, 0.2) ;
+   
+  }
+.link-to-user{
+    width: 900px;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center; /*垂直方向居中*/
+    align-items: center;
+    background-image:url('../images/book_bg2.jpg');
+}
+.poster a{  
+    font-size: 35px;
+    font-weight:1000;
+    font-family: 等线;
+    color: rebeccapurple;
+}
+.poster a:hover{  
+     
+    font-size: 35px;
+    font-weight:1000;
+    font-family: 等线;
+    color:darkgoldenrod;
+}
+.img-box{
+    width: 900px;
+    background-color: white;
+    height:auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center; /*垂直方向居中*/
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow:3px 3px  3px rgba(133, 110, 42, 0.2);
+
+
+}
+.book-info-box{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    
+}
+.bookinfo{
+    margin-left: 20%;
+    font-family: 等线;
+    font-size:20px;
+    font-weight:500;
+    color: rgb(0, 0, 0);
+}
+.buy {
+    margin-left: 20%;
+    width: 15%;
+	height: 50px;
+	border: none;
+	background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
+	background-size: 200%;
+	color: #fff;
+	/* cursor:pointer：设置鼠标样式 */
+	cursor:pointer;
+	transition: .5s;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.buy:hover{
+    margin-left: 20%;
+    width: 16%;
+	height: 50px;
+	border: none;
+	background:  linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+	background-size: 200%;
+	color: #fff;
+	/* cursor:pointer：设置鼠标样式 */
+	cursor:pointer;
+	transition: .5s;
+    font-size: 20px;
+}
+.addcart {
+   
+    width: 15%;
+	height: 50px;
+	border: none;
+	background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
+	background-size: 200%;
+	color: #fff;
+	/* cursor:pointer：设置鼠标样式 */
+	cursor:pointer;
+	transition: .5s;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.addcart:hover{
+   
+    width: 16%;
+	height: 50px;
+	border: none;
+	background:  linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+	background-size: 200%;
+	color: #fff;
+	/* cursor:pointer：设置鼠标样式 */
+	cursor:pointer;
+	transition: .5s;
+    font-size: 20px;
+}
+
+
+
+.addcart{
+    margin-left: 10%;
+ 
+}
